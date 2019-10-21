@@ -82,7 +82,10 @@ pub fn difficulty_bytes_as_u128(v: &Vec<u8>) -> u128 {
 
 mod block;
 pub use crate::block::Block;
+
 mod hashable;
 pub use crate::hashable::Hashable;
 
+mod blockchain;
+pub use crate::blockchain::BlockChain;
 
